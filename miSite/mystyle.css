@@ -1,0 +1,52 @@
+/*Global*/
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(55, 82, 220);
+    color: black;
+}
+/*Utilities*/
+.container{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+/*Headers*/
+header{
+    background-image: url(https://www.redaccionmedica.com/images/destacados/una-bacteria-del-agua-del-mar-podria-ser-la-clave-para-tratar-el-melanoma-2097.jpg);
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+}
+header h1{
+    font-size: 60px;
+    color: chartreuse; 
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px rgb(143, 77, 77); 
+}
+/*menu*/
+nav.menu{
+    background-color: #dedede;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+nav a{
+    display: inline-block;
+    margin-right: 15px;
+   text-decoration: none;
+   color: #0c0c0c; 
+}
+nav.menu{
+    font-size: 16px;
+}
+footer nav a{
+    font-size: 12px;
+}
